@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "F4 to Search",
+  "version": "1.0.0",
+  "description": "Press F4 to search Google for the text selected on the current web page.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "all_frames": true,
+      "match_about_blank": true,
+      "js": ["content.js"]
+    }
+  ]
+}
