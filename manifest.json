@@ -3,15 +3,32 @@
   "name": "F4 to Search",
   "version": "1.0.0",
   "description": "Press F4 to search Google for the text selected on the current web page.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
       "all_frames": true,
       "match_about_blank": true,
-      "js": ["content.js"]
+      "js": [
+        "content.js"
+      ]
     }
   ]
 }
