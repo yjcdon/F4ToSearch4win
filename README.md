@@ -11,4 +11,4 @@ F4ToSearch4win 是一个面向 Windows 的 Chrome 扩展。在网页中选中文
 
 扩展需要在目标网站上运行的权限。按键时焦点须位于网页内。如果笔记本把 F4 键用于静音等功能，请用 **Fn + F4** 发出标准 F4，或切换键盘的 Fn Lock。
 
-扩展包包含 JavaScript 和 Chrome 扩展清单，可通过 Chrome 开发者模式本地加载。v1.0.0 已通过解包检查和 Node.js 模拟测试，尚未在 Windows 实机验证。
+扩展包包含 JavaScript 和 Chrome 扩展清单，可通过 Chrome 开发者模式本地加载。v1.0.0 已通过解包检查、Node.js 模拟测试和 Windows 实机测试。
